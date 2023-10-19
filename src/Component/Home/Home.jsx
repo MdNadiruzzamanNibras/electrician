@@ -4,6 +4,7 @@ import FullService from "./FullService";
 import Maintain from "./Maintain";
 import OurProject from "./OurProject";
 import RequestToday from "./RequestToday";
+import Statistics from "./Statistics";
 
 
 const Home = () => {
@@ -19,7 +20,8 @@ const Home = () => {
              
                 <FullService></FullService>
                 <Maintain></Maintain>
-               <OurProject></OurProject>
+            <OurProject></OurProject>
+            <Statistics></Statistics>
            
         </div>
     );
