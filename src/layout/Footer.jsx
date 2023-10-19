@@ -30,8 +30,8 @@ const Footer = () => {
            <footer className="footer p-10  bg-neutral text-neutral-content">
   <div className='lg:ml-32'>
     
-    <p className='text-2xl font-extrabold'>the</p><p className='font-bold'>... Since 1992</p>
-    <p className='font-bold'>The elec. copyright © {year}</p>
+    <p className='text-2xl font-bold'>The Electrician</p><p className='font-bold'>The Electrician Since 1992</p>
+    <p className='font-bold'>The Electrician. copyright © {year}</p>
   </div> 
   <div>
     <span className="footer-title">Social</span> 
