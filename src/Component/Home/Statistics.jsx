@@ -1,5 +1,6 @@
 
 
+
 const Statistics = () => {
     return (
         <div className="bg-slate-700 w-full h-full lg:h-52 my-6">

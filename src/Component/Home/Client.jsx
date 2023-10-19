@@ -3,8 +3,8 @@ import {BsFillTelephoneFill } from 'react-icons/bs';
 const Client = () => {
     return (
         <div className="container mx-auto my-14">
-            <div className='mt-48'>
-                <div>
+            <div className='mt-48 lg:ml-64'>
+                <div >
                     <div className="w-96 lg:relative ml-5 bg-base-100 rounded-lg shadow-md lg:w-[500px] flex justify-center items-center">
                         <div className="my-12 mx-24">
                             <p className="text-orange-500 my-4 text-xl">What Our Clients Say</p>
@@ -15,7 +15,7 @@ const Client = () => {
                     </div>
 
                     
-                        <div className="bg-orange-500 lg:absolute lg:mt-[-300px] lg:ml-[500px] w-96 flex justify-center text-white items-center">
+                        <div className="bg-orange-500 lg:absolute lg:mt-[-300px] lg:ml-[460px] w-96 flex justify-center text-white items-center">
                             <div className='my-4 mx-10'>
                                 <h3 className='text-3xl font-bold'>Emergency Service</h3>
                                 <p>If this is an emergency outside of normal business hours, call us</p>

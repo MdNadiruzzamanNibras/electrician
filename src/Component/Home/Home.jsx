@@ -3,6 +3,8 @@ import Banner from "./Banner";
 import Client from "./Client";
 import FullService from "./FullService";
 import Maintain from "./Maintain";
+import MaintainPlan from "./MaintainPlan";
+import Newsletter from "./Newsletter";
 import OurProject from "./OurProject";
 import RequestToday from "./RequestToday";
 import Statistics from "./Statistics";
@@ -24,7 +26,8 @@ const Home = () => {
             <OurProject></OurProject>
             <Statistics></Statistics>
             <Client></Client>
-           
+            <MaintainPlan></MaintainPlan>
+           <Newsletter></Newsletter>
         </div>
     );
 };
