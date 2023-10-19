@@ -1,5 +1,6 @@
 import AboutUs from "./AboutUs";
 import Banner from "./Banner";
+import Client from "./Client";
 import FullService from "./FullService";
 import Maintain from "./Maintain";
 import OurProject from "./OurProject";
@@ -22,6 +23,7 @@ const Home = () => {
                 <Maintain></Maintain>
             <OurProject></OurProject>
             <Statistics></Statistics>
+            <Client></Client>
            
         </div>
     );
