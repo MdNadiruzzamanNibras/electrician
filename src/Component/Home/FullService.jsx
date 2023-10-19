@@ -9,8 +9,8 @@ const FullService = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Specify the number of slides to show at once
-    slidesToScroll: 1, // Specify the number of slides to scroll at once
+    slidesToShow: 3, 
+    slidesToScroll: 1, 
   };
 
   return (
