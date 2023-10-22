@@ -16,7 +16,7 @@ const ReasonForCall = () => {
                     <p className='text-lg text-gray-400 mx-auto md:w-[600px]'>Electrician is your single source for a complete range of high-quality electrical services, including design/build, engineering and maintenance.
 </p>
                 </div>
-                <div className='grid grid-cols-1 lg:grid-cols-3'>
+                <div className='grid my-16 grid-cols-1 lg:grid-cols-3'>
                     <div className='bg-white shadow-xl w-80 pl-8 py-8'>
                         <div className='flex items-center'>
                             <div><img src={twentyfor} alt="" /></div>
@@ -40,7 +40,7 @@ const ReasonForCall = () => {
 
 </p>
                     </div>
-                    <div className='bg-white shadow-xl w-80 pl-8 py-8'>
+                    <div className='bg-white  shadow-xl w-80 pl-8 py-8'>
                         <div className='flex items-center'>
                             <div><img src={lowprice} alt="" /></div>
                             <div className='ml-3'><h1 className='text-2xl font-bold '>
@@ -53,6 +53,7 @@ Low Price</h1>
                     </div>
                 </div>
             </div>
+            
         </div>
     );
 };
