@@ -4,7 +4,7 @@ const Newsletter = () => {
     return (
         <div className="container mx-auto">
             <div className="bg-orange-500 ">
-                <div className="flex justify-center items-center py-14 mx-12">
+                <div className="lg:flex lg:justify-center items-center py-14 mx-12">
                     <div className="mr-32 text-white font-bold text-xl">
                         <p>Subscribe to Our Newsletter
 
