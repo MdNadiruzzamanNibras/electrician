@@ -4,7 +4,7 @@ const Footer = () => {
     const today = new Date()
   const year = today.getFullYear()
     return (
-         <div >
+         <div  className=" mx-auto">
         <footer className="footer p-10 bg-neutral text-neutral-content">
   <nav className='lg:ml-32'>
     <header className="footer-title">Services</header> 

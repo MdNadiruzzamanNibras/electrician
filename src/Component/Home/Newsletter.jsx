@@ -16,7 +16,7 @@ const Newsletter = () => {
                     </div>
                     <div className='ml-20'>
                         <button className='flex items-center px-4 py-2 border
-                         border-orange-500 bg-black text-white hover:bg-white hover:text-orange-500'><AiOutlineMail /> <span> Give Us a Call</span></button>
+                         border-orange-500 bg-black text-white hover:bg-white hover:text-orange-500'><AiOutlineMail /> <span className='ml-2'> Give Us a Call</span></button>
                     </div>
             </div>
             </div>

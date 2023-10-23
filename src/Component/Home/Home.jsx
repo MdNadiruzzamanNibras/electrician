@@ -12,7 +12,7 @@ import Statistics from "./Statistics";
 
 const Home = () => {
     return (
-        <div >
+        <div className="px-2">
              <Banner />
             
                 <RequestToday></RequestToday>
@@ -27,7 +27,7 @@ const Home = () => {
             <Statistics></Statistics>
             <Client></Client>
             <MaintainPlan></MaintainPlan>
-           <hr className="w-full  text-slate-200"/>
+           {/* <hr className="w-full  text-slate-200"/> */}
         </div>
     );
 };
