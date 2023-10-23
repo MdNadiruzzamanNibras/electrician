@@ -7,11 +7,12 @@ const Navbar = () => {
   <div className="flex-1">
     <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
   </div>
-  <div className="flex-none mr-0 lg:mr-20">
+  <div className="flex-none mr-2 lg:mr-44">
     <ul className="menu menu-horizontal px-1">
-      <Link to='/'><li>Home</li></Link>
-      <Link to='/about'><li>About</li></Link>
-      <Link to='/price'><li>Price</li></Link>
+      <Link to='/'><li className="text-lg font-bold text-black mx-5">Home</li></Link>
+      <Link to='/about'><li className="text-lg font-bold text-black mx-5">About</li></Link>
+      <Link to='/price'><li className="text-lg font-bold text-black mx-5">Price</li></Link>
+      <Link to='/contact'><li className="text-lg font-bold text-black mx-5">Contact</li></Link>
     </ul>
   </div>
 </div>

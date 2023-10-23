@@ -4,7 +4,7 @@ import Client from "./Client";
 import FullService from "./FullService";
 import Maintain from "./Maintain";
 import MaintainPlan from "./MaintainPlan";
-import Newsletter from "./Newsletter";
+
 import OurProject from "./OurProject";
 import RequestToday from "./RequestToday";
 import Statistics from "./Statistics";
@@ -27,7 +27,7 @@ const Home = () => {
             <Statistics></Statistics>
             <Client></Client>
             <MaintainPlan></MaintainPlan>
-           <Newsletter></Newsletter>
+           <hr className="w-full  text-slate-200"/>
         </div>
     );
 };

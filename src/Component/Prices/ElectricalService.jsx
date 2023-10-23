@@ -3,8 +3,8 @@
 const ElectricalService = () => {
     return (
         <div className="container mx-auto">
-            <div >
-                <div className="text-center">
+            <div className="mt-15 mb-44">
+                <div className="text-center my-10">
                     <h4 className="text-xl font-bold text-orange-500">Our Rates
                     </h4>
                     <h2 className="text-4xl font-bold ">Electrical Service Prices
